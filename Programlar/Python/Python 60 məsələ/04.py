@@ -1,5 +1,5 @@
-n = int(input("eded: "))
-if n%10==0: print("yes")
-else: print("no")
+n = int(input("ədəd: "))
+if n%10==0: print("doğru")
+else: print("yanlış")
 
-#ededin cut ve 10-a bolune bilmesini yoxlayan program
+#ədədin cüt və 10-a bölünə bilməsini yoxlayan program

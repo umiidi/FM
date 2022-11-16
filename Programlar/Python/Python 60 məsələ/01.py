@@ -1,5 +1,5 @@
-n = int(input("eded: "))
-if n%4==0: print("yes")
-else: print("no")
+n = int(input("ədəd: "))
+if n%4==0: print("doğru")
+else: print("yanlış")
 
-#ededin cut ve 4-e bolune bilmesini yoxlayan program
+#ədədin cüt və 4-ə bölünə bilməsini yoxlayan program

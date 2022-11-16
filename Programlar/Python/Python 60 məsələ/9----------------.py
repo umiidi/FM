@@ -1,0 +1,2 @@
+
+#Pulun miqdarı məlumdur. 
