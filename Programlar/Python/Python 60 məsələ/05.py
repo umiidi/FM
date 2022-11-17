@@ -1,18 +1,18 @@
-print("Qutunun ölçüləri")
+print("Enter size the box")
 A = int(input("A="))
 B = int(input("B="))
 C = int(input("C="))
-print("Qapının ölçüləri")
+print("Enter size the door")
 M = int(input("M="))
 K = int(input("K="))
 if (A<=M and B<=K) or (B<=M and A<=K):
-    print("olur")
+    print("yes")
 elif (A<=M and C<=K) or (C<=M and A<=K):
-    print("olur")
+    print("yes")
 elif (B<=M and C<=K) or (C<=M and B<=K):
-    print("olur")
+    print("yes")
 else: 
-    print("olmur")
+    print("no")
 
 
 
