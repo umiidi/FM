@@ -5,5 +5,4 @@ for i in range(len(n)):
 else: print(count)
 
 #ededde muxtelif reqemlerin sayini tapan program
-
 #optimal kod (set vasitesile)
