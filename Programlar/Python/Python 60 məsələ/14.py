@@ -1,7 +1,7 @@
 X = float(input("Enter the number: "))
 a = int(input("a= "))
 b = int(input("b= "))
-if X in range(a,b):
+if X>=a and X<=b:
     print("yes")
 else: 
     print("no")
