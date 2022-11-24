@@ -1,7 +1,7 @@
 arr = list(map(int, input("Enter the numbers: ").split()))
 count=0
 print("Numbers:" , end=" ")
-for x in range(len(arr)-1):
+for x in range(len(arr)):
     if arr.index(arr[x])==x:
         for y in range(x+1, len(arr)):
             if arr[x]==arr[y]:
