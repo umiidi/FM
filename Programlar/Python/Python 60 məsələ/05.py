@@ -5,11 +5,11 @@ C = int(input("C="))
 print("Enter size the door")
 M = int(input("M="))
 K = int(input("K="))
-if (A<=M and B<=K) or (B<=M and A<=K):
+if (A<M and B<K) or (B<M and A<K):
     print("yes")
-elif (A<=M and C<=K) or (C<=M and A<=K):
+elif (A<M and C<K) or (C<M and A<K):
     print("yes")
-elif (B<=M and C<=K) or (C<=M and B<=K):
+elif (B<M and C<K) or (C<M and B<K):
     print("yes")
 else: 
     print("no")
